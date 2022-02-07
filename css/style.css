@@ -32,6 +32,14 @@ h1,
 h2,
 h3 {
   margin: 0;
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+
 }
 
 .container {
@@ -74,6 +82,7 @@ h3 {
   height: 243px;
   border-radius: 50%;
   overflow: hidden;
+  margin-right: 90px;
 }
 
 .about__button {
@@ -85,10 +94,11 @@ h3 {
   left: 148px;
   top: 477px;
   cursor: pointer;
+  margin-top: 45px;
 }
 
+
 .about__img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  object-fit: cover;
+  width: 100%;
 }
