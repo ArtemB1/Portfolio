@@ -189,3 +189,12 @@ h3 {
   color: white;
   padding-left: 10px;
 }
+
+.list {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.text__footer {
+  text-align: center;
+}
