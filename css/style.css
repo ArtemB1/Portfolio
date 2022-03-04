@@ -64,6 +64,53 @@ h3 {
 
 .nav__list {
   display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header__burger {
+  width: 30px;
+  position: relative;
+  display: none;
+  align-items: center;
+  height: 22px;
+  margin-right: 18px;
+}
+.header__burger-el {
+  height: 2px;
+  width: 100%;
+  background-color: #21243d;
+  position: relative;
+}
+
+.header__burger-el::before,
+.header__burger-el::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #21243d;
+  position: absolute;
+  top: -8px;
+}
+.header__burger-el::before {
+  top: -8px;
+}
+
+.header__burger-el::after {
+  top: 8px;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding-top: 20px;
+  }
+  .nav {
+    display: none;
+  }
+  .header__burger {
+    display: flex;
+  }
 }
 
 .nav__item {
