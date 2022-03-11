@@ -126,8 +126,6 @@ h3 {
   flex-direction: column-reverse;
 }
 
-.about__info {}
-
 .about__avatar {
   width: 243px;
   height: 243px;
@@ -264,10 +262,6 @@ h3 {
   padding-right: 18px;
 }
 
-.work__img-wrap {
-  border-radius: 6px;
-}
-
 .work__category {
   color: #8695a4;
   margin-left: 20px;
@@ -289,10 +283,30 @@ h3 {
 }
 
 .list {
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .text__footer {
   text-align: center;
+}
+
+.work__info-title {
+  color: #21243d;
+  height: 44px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+@media (max-width: 480px) {
+  .featured__works{
+    display: flex;
+    overflow: auto;
+  }
+  .work {
+    padding: 0px 13px 17px;
+    flex-direction: column;
+    flex: 0 0 100%;
+  }
 }
