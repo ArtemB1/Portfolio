@@ -43,6 +43,12 @@ h3 {
   letter-spacing: 0px;
 }
 
+.avatar {
+  Width: 243px;
+  Height: 243px;
+  border-radius: 5px;
+}
+
 .container {
   max-width: 855px;
   margin: 0 auto;
@@ -179,7 +185,6 @@ h3 {
 }
 
 .recent-posts__articles {
-  height: 259px;
   background: #ffffff;
   border-radius: 4px;
   display: flex;
