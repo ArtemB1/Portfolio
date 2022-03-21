@@ -44,9 +44,11 @@ h3 {
 }
 
 .avatar {
-  Width: 243px;
-  Height: 243px;
-  border-radius: 5px;
+  border-radius: 50%;
+  height: 243px;
+  width: 243px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .container {
@@ -305,7 +307,7 @@ h3 {
 }
 
 @media (max-width: 480px) {
-  .featured__works{
+  .featured__works {
     display: flex;
     overflow: auto;
   }
@@ -314,4 +316,28 @@ h3 {
     flex-direction: column;
     flex: 0 0 100%;
   }
+}
+
+.blog__articles {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.blog__date {
+  display: flex;
+  padding: 17px;
+}
+
+.blog__category {
+  color: #8695a4;
+  margin-left: 20px;
+}
+
+.blog__subarticle {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
 }
