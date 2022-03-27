@@ -265,6 +265,37 @@ h3 {
   padding-top: 46px;
 }
 
+.container__footer {
+  padding: 51px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__social-list {
+  display: flex;
+}
+
+.footer__social-item {
+  width: 30px;
+  height: 30px;
+  margin-right: 35px;
+  font-size: 0;
+}
+
+.footer__social-item:last-child {
+  margin-right: 0;
+}
+
+.footer__social-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .work__img-wrap {
   padding-right: 18px;
 }
@@ -294,10 +325,6 @@ h3 {
   text-align: center;
 }
 
-.text__footer {
-  text-align: center;
-}
-
 .work__info-title {
   color: #21243d;
   height: 44px;
@@ -311,6 +338,7 @@ h3 {
     display: flex;
     overflow: auto;
   }
+
   .work {
     padding: 0px 13px 17px;
     flex-direction: column;
@@ -340,4 +368,31 @@ h3 {
   font-size: 44px;
   line-height: 60px;
   color: #21243d;
+}
+
+.nav__ling {
+  color: red;
+}
+
+.vk {
+  background-image: url(../img/vk.png);
+}
+
+.ok {
+  background-image: url(../img/ok.png);
+}
+
+.github {
+  background-image: url(../img/github.jpg);
+}
+
+.telegram {
+  background-image: url(../img/telegram.png);
+}
+
+.title__category {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
 }
