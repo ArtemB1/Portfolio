@@ -49,6 +49,8 @@ h3 {
   width: 243px;
   border-radius: 50%;
   overflow: hidden;
+  margin-left: 740px;
+  display: flex;
 }
 
 .container {
@@ -171,13 +173,18 @@ h3 {
     height: 170px;
   }
 
-  .about__info {
+  .about__imfo {
     padding: 0 24px;
+    display: flex;
   }
 
   .about__title {
     font-size: 32px;
   }
+}
+
+.about__imfo {
+  margin-top: -168px;
 }
 
 .recent-posts {
